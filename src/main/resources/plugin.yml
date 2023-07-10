@@ -1,0 +1,27 @@
+name: Firework
+version: '${version}'
+main: org.encinet.firework.Firework
+api-version: '1.17'
+author: ObcbO
+commands:
+  firework:
+    description: Main Command
+permissions:
+  firework.admin:
+    default: op
+    description: Allows all commands
+  firework.start:
+    default: op
+    description: Allows /firework start <time in seconds> command
+  firework.gun:
+    default: op
+    description: Allows /firework gun command
+  firework.set:
+    default: op
+    description: Allows /firework set command
+  firework.unset:
+    default: op
+    description: Allows /firework unset command
+  firework.reload:
+    default: op
+    description: Allows /firework reload command

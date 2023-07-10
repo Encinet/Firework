@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.encinet'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "papermc-repo"
+        url = "https://repo.papermc.io/repository/maven-public/"
+    }
+}
+
+dependencies {
+    compileOnly "io.papermc.paper:paper-api:1.17-R0.1-SNAPSHOT"
+}
+
+java {
+    def javaVersion = JavaVersion.toVersion(17)
+    sourceCompatibility = javaVersion
+    targetCompatibility = javaVersion
+}
+
+processResources {
+    def props = [version: version]
+    inputs.properties props
+    filteringCharset 'UTF-8'
+    filesMatching('plugin.yml') {
+        expand props
+    }
+}
