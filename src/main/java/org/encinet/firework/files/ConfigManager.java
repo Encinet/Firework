@@ -48,7 +48,7 @@ public class ConfigManager {
         message_unset = color(config.getString("message.unset", "&6&lFirework &8» &aFirework location removed successfully"));
         message_start = color(config.getString("message.start", "&6&lFirework &8» &eThe fireworks show has started for &c{0} seconds&e!"));
         message_gun = color(config.getString("message.gun", "&6&lFirework &8» &aFirework gun has been added to your inventory."));
-        message_help = color(config.getString("message.help", "---------- &6&lFirework ----------\n" +
+        message_help = color(config.getString("message.help", "---------- &6&lFirework&r ----------\n" +
                                                         "&c/firework reload &7- Reload config.yml and data.yml file\n" +
                                                         "&c/firework start [time in seconds] &7- Start firework event\n" +
                                                         "&c/firework set &7- Set location for firework rocket\n" +

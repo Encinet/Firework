@@ -15,10 +15,10 @@ message:
   reload: "&6&l烟花 &8» &a重载完毕"
   set: "&6&l烟花 &8» &a烟花发射点设置成功"
   unset: "&6&l烟花 &8» &a烟花发射点删除成功"
-  start: "&6&l烟花 &8» &e烟花盛将持续 &c{0} 秒钟&e!"
+  start: "&6&l烟花 &8» &e烟花盛会将持续 &c{0} 秒钟&e!"
   gun: "&6&l烟花 &8» &a烟花发射器添加到你的背包了"
   help: |
-    ---------- &6&l烟花 ----------
+    ---------- &6&l烟花&r ----------
     &c/firework reload &7- 重载插件文件
     &c/firework start [秒数] &7- 开始烟花盛会
     &c/firework set &7- 设置烟花发射点
@@ -44,7 +44,7 @@ message:
 #  start: "&6&lFirework &8» &eThe fireworks show has started for &c{0} seconds&e!"
 #  gun: "&6&lFirework &8» &aFirework gun has been added to your inventory."
 #  help: |
-#    ---------- &6&lFirework ----------
+#    ---------- &6&lFirework&r ----------
 #    &c/firework reload &7- Reload config.yml and data.yml file
 #    &c/firework start [time in seconds] &7- Start firework event
 #    &c/firework set &7- Set location for firework rocket
