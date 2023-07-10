@@ -17,4 +17,4 @@
 
 ## About
 
-This project originally came from [Symii/OwnNewYearEve](Symii/OwnNewYearEve) Now it has been modified and optimized a lot, but I still thank Symii
+This project originally came from [Symii/OwnNewYearEve](https://github.com/Symii/OwnNewYearEve) Now it has been modified and optimized a lot, but I still thank Symii
