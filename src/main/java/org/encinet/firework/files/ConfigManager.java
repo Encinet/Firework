@@ -39,7 +39,7 @@ public class ConfigManager {
         rocket_gun_lore = new ArrayList<>();
         List<String> rocket_gun_lore_string = config.getStringList("firework-rocket.lore");
         rocket_gun_lore_string.forEach((value) -> rocket_gun_lore.add(Component.text(color(value))));
-        if (rocket_gun_lore.size() == 0) {
+        if (rocket_gun_lore.isEmpty()) {
             rocket_gun_lore.add(Component.text(color("&eRight-click &7to fire a firework!")));
         }
 
